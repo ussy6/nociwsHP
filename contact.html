@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nociws</title>
+    <meta name="description" content="Nociws(ノチウス)は北見工業大学の宇宙開発サークルです。現在はハイブリッドロケットの打ち上げに挑戦しています。">
+
+
+    <link rel="icon" type="image/png" href="images/fav.png">
+
+    <!-- CSS only　boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/humberger.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <!-- Ten Mincho Text Regular -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'lvc5idf',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169329020-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169329020-1');
+    </script>
+
+
+    <!--formrun-->
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="d-flex flex-row">
+                <div class=""><a href="index.html"><img class="w-75 pr-5 py-4" src="images/logo1.png" alt="Nociws"></a></div>
+
+                <div class="bigicon" id="nav-drawer">
+                    <input id="nav-input" type="checkbox" class="nav-unshown">
+                    <label id="nav-open" for="nav-input"><span></span></label>
+                    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                    <div id="nav-content">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html"><img class="mw-100 h-2 my-2" src="images/home.png" alt="ホーム"></a></li>
+                                <li><a href="sinnyuusei.html"><img class="mw-100 h-2 my-2" src="images/welcome.png" alt="新入生"></a></li>
+                                <!-- <li><a href="introduce.html"><img class="h-2" src="images/aboutnociws.png" alt="ノチウスについて"></a></li> -->
+                                <!--<li><a href="welcome.html"><img class="h-2" src="images/welcome.png" alt="部員募集中"></a></li>-->
+                                <!-- <li><a href="report.html"><img class="mw-100 h-2 my-2" src="images/reference.png" alt="資料"></a></li> -->
+                                <!-- <li><a href="movie.html"><img class="mw-100 h-2 my-2" src="images/movie.png" alt="動画"></a></li> -->
+                                <li><a href="nhr_1.html"><img class="mw-100 h-2 my-2" src="images/hybrid.png" alt="ハイブリッドロケット"></a></li>
+                                <!-- <li><a href="contribution.html"><img class="mw-100 h-2 my-2" src="images/kyosan.png" alt="協賛のお願い"></a></li> -->
+                                <li><a href="contact.html"><img class="mw-100 h-2 my-2" src="images/otoiawase.png" alt="お問い合わせ"></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div>
+                <div class="px-5 py-3">
+                    <h2 class="wordstyle tenmincho komidashi mt-3">お問い合わせフォーム</h2>
+                </div>
+                
+                <div class="px-5 py-3">
+                    <p class="tenmincho wordstyle">
+                        お問い合わせは下のフォームまで。
+                        見学はいつでも受け付けていますし、学生以外の方でも気軽にご連絡ください。<br>
+                        手作りロケット教室なども計画しているので、気軽にご連絡ください。
+                    </p>
+                </div>
+
+                <!-- class, action, methodを変更しないでください -->
+                <form class="formrun" action="https://form.run/api/v1/r/cfoq634yihhyltqm5fx8unkw" method="post">
+                <!-- ↓自由に要素を追加・編集することができます -->
+                <div>
+                    <label>お名前</label>
+                    <input name="お名前" type="text">
+                </div>
+                <div>
+                    <label>メールアドレス</label>
+                    <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                    <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                </div>
+                <div>
+                    <label>お問い合わせ内容</label>
+                    <textarea name="お問い合わせ" data-formrun-required></textarea>
+                    <div data-formrun-show-if-error="お問い合わせ">お問い合わせ内容を入力してください</div>
+                </div>
+                <div>
+                    <label>個人情報利用同意 [必須]</label>
+                    <input type="checkbox" name="個人情報利用同意" data-formrun-required>
+                    <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
+                </div>
+                <!-- ボット投稿をブロックするためのタグ -->
+                <div class="_formrun_gotcha">
+                    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+                </div>
+            
+                <button class="button" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="d-flex flex-row">
+                <div class=""><a href="index.html"><img class="w-75 pr-5 py-4" src="images/logo1.png" alt="Nociws"></a></div>
+
+                <div class="bigicon" id="nav-drawer">
+                    <input id="nav-input" type="checkbox" class="nav-unshown">
+                    <label id="nav-open" for="nav-input"><span></span></label>
+                    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                    <div id="nav-content">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html"><img class="mw-100 h-2 my-2" src="images/home.png" alt="ホーム"></a></li>
+                                <li><a href="sinnyuusei.html"><img class="mw-100 h-2 my-2" src="images/welcome.png" alt="新入生"></a></li>
+                                <!-- <li><a href="introduce.html"><img class="h-2" src="images/aboutnociws.png" alt="ノチウスについて"></a></li> -->
+                                <!--<li><a href="welcome.html"><img class="h-2" src="images/welcome.png" alt="部員募集中"></a></li>-->
+                                <!-- <li><a href="report.html"><img class="mw-100 h-2 my-2" src="images/reference.png" alt="資料"></a></li> -->
+                                <!-- <li><a href="movie.html"><img class="mw-100 h-2 my-2" src="images/movie.png" alt="動画"></a></li> -->
+                                <li><a href="nhr_1.html"><img class="mw-100 h-2 my-2" src="images/hybrid.png" alt="ハイブリッドロケット"></a></li>
+                                <!-- <li><a href="contribution.html"><img class="mw-100 h-2 my-2" src="images/kyosan.png" alt="協賛のお願い"></a></li> -->
+                                <li><a href="contact.html"><img class="mw-100 h-2 my-2" src="images/otoiawase.png" alt="お問い合わせ"></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

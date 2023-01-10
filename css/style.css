@@ -1,0 +1,66 @@
+.h-2 {
+    height: 1.5em;
+}
+
+li {
+    list-style-type:none;
+    display: block;
+}
+
+.bigicon {
+    margin-top: 50px;
+}
+@media (max-width: 600px) {
+    .bigicon {
+    margin-top: 0;
+    }
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.komidashi {
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px #7db4e6;/*左線*/
+}
+
+.tenmincho {
+    font-family: ten-mincho-text, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.wordstyle {
+    font-size: 1.3em;
+    line-height: 2em;
+    color: #63A7EB;
+}
+.wordstyle2 {
+    font-size: 1.3em;
+    line-height: 2em;
+    color: #1C66AF;
+}
+.wordstyle3 {
+    font-size: 1em;
+    line-height:1.4em;
+    color: #1C66AF;
+}
+
+.background1 {
+    background-color: aliceblue;
+}
+
+/* button */
+.button {
+    font-size: 20px;
+    background: #8ED1FC;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+  }
+.button:hover {
+    background: #0693E3;
+}
+  
